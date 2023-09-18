@@ -1,0 +1,15 @@
+[data-sonner-toast] [data-title] {
+    @apply font-bold text-base font-nunito;
+}
+
+[data-sonner-toast] [data-description] {
+    @apply text-sm font-nunito;
+}
+
+[data-rich-colors=true] [data-sonner-toast][data-type=error], [data-rich-colors=true] [data-sonner-toast][data-type=error] [data-close-button] {
+    @apply !border-danger;
+}
+
+[data-rich-colors=true] [data-sonner-toast][data-type=success], [data-rich-colors=true] [data-sonner-toast][data-type=success] [data-close-button] {
+    @apply !border-success;
+}
